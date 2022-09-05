@@ -46,3 +46,39 @@
 .fa-apple {
     font-size: 10px;
 }
+
+/*--------------
+players styles
+-------------- */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:
+}
+
+.player {
+    background-color: pink;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.player .player-banner img {
+    width: 100%;
+    height: 300pxpx;
+}
+
+.transfer-btn {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.time-info {
+    display: flex;
+
+}
+
+.time-icon {
+    margin-right: 40px;
+}
